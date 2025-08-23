@@ -1,0 +1,23 @@
+
+[package]
+name = "sack"
+version = "0.1.0"
+edition = "2024"
+authors = ["Mivik <mivikq@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Mivik/sack"
+
+[lib]
+
+[features]
+default = ["waker"]
+waker = []
+
+[dev-dependencies]
+criterion = "0.3"
+crossbeam-utils = "0.8.21"
+parking_lot = "0.12.4"
+
+[[bench]]
+name = "basic"
+harness = false
