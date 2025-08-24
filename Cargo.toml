@@ -4,8 +4,13 @@ name = "sack"
 version = "0.1.0"
 edition = "2024"
 authors = ["Mivik <mivikq@gmail.com>"]
+description = "A lock-free data structure for adding & retrieving items"
 license = "MIT"
 repository = "https://github.com/Mivik/sack"
+homepage = "https://github.com/Mivik/sack"
+documentation = "https://docs.rs/sack"
+categories = ["asynchronous", "concurrency", "data-structures"]
+keywords = ["async", "atomic", "concurrent", "collection"]
 
 [lib]
 
